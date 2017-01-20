@@ -1,0 +1,65 @@
+<!-- The HTML that follows is for a simple list.  Insert it into a properly formed HTML file and format it.  Try to ensure the following are done:
+
+-space the list items at least 20 pixels from the left edge of the page
+-space the list items at least 10 pixels from each other
+- center the header
+-keep the list at least 50 pixels from the header
+-the book titles in the list should not be displayed in a serif font
+-the header should use a different font than the list
+-the text of header should be dark red
+-break the CSS rules into two different .css files. One file should contain any spacing rules, the other any rules governing font faces or coloring.  Bind both into your HTML document
+instead of numbers, have the list items indexed by the alphabet.
+-change the <ol> tag to <ul> (and the closing </ol> to </ul>) and style the list items to have square bullet points.
+download this simple triangle shape  and style the list items to use it.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>List and Selectors</title>
+	<style type="text/css">
+	h1{
+		margin-bottom: 50px;
+		color: darkred;
+		font-family: Arial;
+	}
+	li {
+		margin-left: 20px;
+		margin-bottom: 10px;
+		font-family: Tahoma;
+		
+	}
+	li{
+		list-style-image: url("https://d37djvu3ytnwxt.cloudfront.net/assets/courseware/v1/073e0b55b08d259174c48c569c6696d9/asset-v1:W3Cx+HTML5.0x+2T_2016+type@asset+block/my_triangle.png");
+	}
+	h1 {
+		text-align: center;
+	}
+</style>
+</head>
+<body>
+	<h1>Books</h1>
+	<ol>
+		<li>A la Recherche de Temps Perdu</li>
+		<li>Middlemarch</li>
+		<li>Ulysses</li>
+		<li>Don Quixote</li>
+		<li>Moby Dick</li>
+		<li>Hamlet</li>
+		<li>War and Peace</li>
+		<li>The Odyssey</li>
+		<li>The Great Gatsby</li>
+		<li>The Divine Comedy</li>
+		<li>Madame Bovary</li>
+		<li>The Brothers Karamazov</li>
+		<li>One Hundred Years of Solitude</li>
+		<li>The Iliad</li>
+		<li>Lolita</li>
+		<li>Anna Karenina</li>
+		<li>Crime and Punishment</li>
+		<li>The Sound and the Fury</li>
+		<li>Wuthering Heights</li>
+		<li>Le Rouge et le Noir</li>
+	</ol>
+</body>
+</html>

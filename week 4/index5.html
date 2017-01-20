@@ -1,0 +1,72 @@
+<!-- Create a simple Web page with some rectangles distinguished by their background color so you can see them.  You can create the rectangles using spans and/or divs, and explicitly setting the width and height.  They need to have some content or else they'll be of size 0, so you need to put some text or at least an &nbsp; inside, but then you should be able to adjust the height and width using CSS.
+
+	In the debugger, try modifying the padding, border and margin settings using the arrow keys to modify numerical values so you can see how the changing number affects the element. Be sure to try border-radius and see if you can create a circle or oval.  Be sure to try out some other border attributes like style and color.  If you're feeling brave, you could even try border-gradient. -->
+
+	<html>
+	<head>
+		<title>Week 4 - Debugging CSS BOX</title>
+		<style>
+		#first{
+			background-color: blue;
+			width: 240px;
+			height: 100px;
+			text-align: center;
+			font-family: Tahoma;
+			padding-top: 10px;
+			font-size: 40px;
+		}
+
+		#second{
+			border: 5px solid black;
+			width: 50px;
+			height: 200px;
+		}
+		#thirth{
+			border: 5px solid black;
+			width: 50px;
+			height: 200px;
+			margin-left: 60px;
+			margin-top: -210px;
+		}
+		#four{
+			border: 5px solid black;
+			width: 50px;
+			height: 200px;
+			margin-left: 120px;
+			margin-top: -210px;
+		}
+		#fifth{
+			border: 5px solid black;
+			width: 50px;
+			height: 200px;
+			margin-left: 180px;
+			margin-top: -210px;
+		}
+		#winsucks{
+			height: 200px;
+			width: 200px;
+			margin-top: -200px;
+			margin-left: 20px;
+			z-index: -1;
+			overflow: hidden;
+			position: relative;
+			display: block;
+		}
+		#ground{
+			background-color: brown;
+			width: 240px;
+			height: 50px;
+			
+		}
+	</style>
+</head>
+<body>
+	<div id="first">JAIL OF SHAME</div>
+	<div id="second"></div>
+	<div id="thirth"></div>
+	<div id="four"></div>
+	<div id="fifth"></div>
+	<img id="winsucks" src="windows_flag.png" alt=":(">
+	<div id="ground">
+</body>
+</html>

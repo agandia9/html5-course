@@ -1,0 +1,148 @@
+<!-- "Beautifying" the recipe project - Week 4
+
+This week we're going to do some more "beautifying" of our Web page using what we've learned in the debugger and the CSS box model to figure out where and what we need to change to tighten things up a bit and add a little more flair.
+Apply the changes in Week 3 and 4
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Favorite Recipes -  Week 4</title>
+	<style>
+	.list{
+		background-color: cyan;
+		width: 300px;
+		height: 80px;
+
+	}
+	h1{
+		background-color: violet;
+		text-align: center;
+	}
+	img{
+		border: 5px solid blue;
+		padding: 5px;
+	}
+	footer{
+		font-style: italic;
+		font-family: Tahoma;
+	}
+	.subList{
+		list-style-type: none;
+		font-family: Arial;
+		font-size: 15px;
+		
+	}
+	.subList a {
+		text-decoration: none;
+	}
+	.subList a:visited {
+		color: red;
+	}
+	h2{
+		font-style: italic;
+		color: blue;
+	}
+	ul > :first-child li{
+		font-size: 20px;
+		list-style-type: none;
+	}
+	ul
+</style>
+</head>
+<body>
+	<h1>My Favorite Recipes</h1>
+	<div class="list">
+		<ul class="subList">
+			<li><a href="#tacos">Tacos 🌮</a></li>
+			<li><a href="#pizza">Pizza 🍕</a></li>
+			<li><a href="#sushi">Sushi 🍣</a></li>
+		</ul>
+	</div>
+	<h2 id="tacos">Tacos</h2>
+	<article>
+		<section>
+			<img id="photo" src="http://68.media.tumblr.com/01f9f4d03fb2921d20baed3e169d7291/tumblr_o8h4ukyvev1st5lhmo1_1280.jpg" alt="Taco(?)"
+			height="300" width="400">
+			<ul>
+				<li> Ingredients
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li> This is how we make it
+					<ol>
+						<li>First</li>
+						<li>Second</li>
+						<li>Third</li>
+					</ol>
+				</li>
+			</ul>
+		</section>
+	</article>
+
+	<h2 id="pizza">Pizza</h2>
+	<article>
+		<section>
+			<img src="http://68.media.tumblr.com/6a3c1841255255d81f00adc0559ae3e1/tumblr_o9c2klYKxX1st5lhmo1_1280.jpg" alt="Pizza(?)"
+			height="300" width="400">
+			<ul>
+				<li> Ingredients
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li> This is how we make it
+					<ol>
+						<li>First</li>
+						<li>Second</li>
+						<li>Third</li>
+					</ol>
+				</li>
+			</ul>
+		</section>
+	</article>
+
+	<h2 id="sushi">Sushi</h2>
+	<article>
+		<section>
+			<img src="http://68.media.tumblr.com/679877bf3a41de98aadc21b1fd4e2762/tumblr_o8pusnLDnT1st5lhmo1_1280.jpg" alt="Sushi(?)"
+			height="300" width="400">
+			<ul>
+				<li> Ingredients
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+					</ul>
+				</li>
+			</ul>
+			<ul>
+				<li> This is how we make it
+					<ol>
+						<li>First</li>
+						<li>Second</li>
+						<li>Third</li>
+					</ol>
+				</li>
+			</ul>
+		</section>
+	</article>
+
+	<footer><div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur sint cum earum repellat non, enim unde fugit ea magnam, error laudantium hic porro possimus aliquam reiciendis corporis similique deserunt beatae.</div>
+		<div>Aperiam amet iusto, atque aut. Distinctio, ullam consequatur, quia temporibus, quisquam accusamus perferendis, magni quos assumenda dolorum non quo nisi esse. Consequuntur eum sequi aperiam eaque magni exercitationem molestias odit.</div>
+		<div>Est, amet eveniet qui porro perferendis doloremque possimus voluptas distinctio sequi dolorem odit itaque reprehenderit tenetur? Ea cum reprehenderit eum iusto deleniti odio hic voluptatum aliquid minima laudantium, tempora dicta!</div>
+		<div>Consequatur quae impedit voluptatibus, laudantium suscipit at, quis commodi sapiente architecto, illum laboriosam odio et. Obcaecati quam facilis quia veniam porro qui debitis ullam maiores necessitatibus, cum harum eligendi odit.</div></footer>
+	</body>
+	</html>

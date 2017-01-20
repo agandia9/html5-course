@@ -1,0 +1,157 @@
+<!-- https://courses.edx.org/courses/course-v1:W3Cx+HTML5.0x+2T_2016/courseware/5854bfc005394517ae62fc55fd58242e/83268eeaa4bf474e9aca8dcfb3f02da1/ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>week 5 - Tables</title>
+	<style>
+	#first{
+		text-align: center;
+		padding-bottom: 30px;
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	.firstLine{
+		background-color: lightgrey;
+	}
+
+	#second{
+		font-family: Tahoma;
+		width: 600px;
+		height: 100px;
+		text-align: center;
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+
+	.bold{
+		font-weight: bold;
+	}
+
+	#terc{
+		font-family: Tahoma;
+		width: 600px;
+		height: 100px;
+		text-align: center;
+		border: 1px solid black;
+		border-collapse: collapse;
+	}
+	.shadow{
+		background-color: grey;
+	}
+
+	#quart{
+		font-family: Tahoma;
+		width: 600px;
+		height: 250px;
+		text-align: center;
+		border: 1px solid white;
+		border-collapse: collapse;
+	}
+	.blue-shadow{
+		background-color: #a1d6fd;
+		border-bottom-style: double;
+    border-bottom-color: white;
+	}
+	.par{
+		background-color: #ecf8fb;
+	}
+	.impar{
+		background-color: #cef4fd;
+	}
+</style>
+</head>
+<body>
+	<div>
+		<table  id = "first" border=1>
+			<tr class="firstLine">
+				<td>lojknjfbrh</td>
+				<td>nqoibiuhqv</td>
+				<td>efewfwe</td>
+			</tr>
+			<tr>
+				<td>nqoibiuhqv</td>
+				<td>efewfwe</td>
+				<td>njkhvghct</td>
+			</tr>
+			<tr>
+				<td>nqoibiuhqv</td>
+				<td>efewfwe</td>
+				<td>njkhvfewf3f</td>
+			</tr>
+		</table>
+	</div>
+	<br>
+	<table id="second" border=1>
+		<tr class="bold">
+			<td>Attribute</td>
+			<td>Description</td>
+			<td>Usage</td>
+		</tr>
+		<tr>
+			<td>nqoibiuhqv</td>
+			<td>efewfwe</td>
+			<td>njkhvghct</td>
+		</tr>
+		<tr>
+			<td>nqoibiuhqv</td>
+			<td>efewfwe</td>
+			<td>njkhvghct</td>
+		</tr>
+	</table>
+	<br>
+	<table id="terc" border=1>
+		<tr class="bold shadow">
+			<td>Attribute</td>
+			<td>Description</td>
+			<td>Usage</td>
+		</tr>
+		<tr>
+			<td>nqoibiuhqv</td>
+			<td>efewfwe</td>
+			<td rowspan="2">ivtcytcy</td>
+		</tr>
+		<tr>
+			<td colspan="2">efewfwe</td>
+		</tr>
+	</table>
+	<br>
+	<table id="quart" border=1>
+		<tr class="bold blue-shadow">
+			<td>Attribute</td>
+			<td>Description</td>
+			<td>Usage</td>
+			<td>Usage</td>
+		</tr>
+		<tr class="par">
+			<td>nqoibiuhqv</td>
+			<td>efewfwwcdee</td>
+			<td>ivtcytcdddy</td>
+			<td>ebcyurtverc</td>
+		</tr>
+		<tr class="impar">
+			<td>efewfwe</td>
+			<td>efewfwe</td>
+			<td>efewfwe</td>
+			<td>Usage</td>
+		</tr>
+		<tr class="par">
+			<td>efewfwe</td>
+			<td>efewfwe</td>
+			<td>efewfwe</td>
+			<td>Usage</td>
+		</tr>
+		<tr class="impar">
+			<td>efewfwe</td>
+			<td>efewfwe</td>
+			<td>efewfwe</td>
+			<td>Usage</td>
+		</tr>
+		<tr class="par">
+			<td colspan="2">efewfwe</td>
+			<td colspan="2">efewfwe</td>
+
+		</tr>
+	</table>
+</body>
+</html>
